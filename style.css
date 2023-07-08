@@ -44,4 +44,13 @@ table {
 	border-spacing: 0;
 }
 
-/* ==== END OG CSS RESET ==== */
+/* ==== END OF CSS RESET ==== */
+
+
+header {
+  background-color: rgba(60, 30, 90, .5);
+}
+
+main {
+  background-color: rgba(20, 80, 17, .5);
+}
