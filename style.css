@@ -63,22 +63,22 @@ article {
 
 body {
 	font-family: Urbanist, Arial;
-	font-size: 18px;
-	line-height: 32px;
+	font-size: 1.125rem;
+	line-height: 2rem;
 	color: #333;
 }
 
 h1 {
-	font-size: 28.8px;	
+	font-size: 1.8rem;	
 }
 
 h2 {
-	font-size: 25.6px;
+	font-size: 1.6rem;
 	color: #e5127d;
 }
 
 header {
-	letter-spacing: 2px;
+	letter-spacing: 0.125rem;
 }
 
 header p {
