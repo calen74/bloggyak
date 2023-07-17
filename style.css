@@ -84,6 +84,23 @@ main{
 	color: #fff;
 	background-color: #42444e;
 }
+@media (min-width: 768px) {
+
+	main {
+		float: right;
+		width: 66.6%;
+		max-width: 812px;
+	}
+
+}@media (min-width: 1025px) {
+	main {
+		float: none;
+		position: absolute;
+		left: 20.625%;
+	}
+}
+
+/* ==== HEADER STYLES ==== */
 
 header {
 	letter-spacing: 0.125rem;
@@ -93,6 +110,21 @@ header {
 
 header p {
 	color: #8c8e9b;
+}
+
+@media (min-width: 768px) {
+	header {
+		position: fixed;
+		top: 0;
+		height: 100%;
+		width: 33.3%;
+	}
+}
+
+@media (min-width: 1025px) {
+	header {
+		width: 20.625%;
+	}
 }
 
 .picture {
